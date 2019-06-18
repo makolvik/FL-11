@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>HTML Basics</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div id="wrapper">
     <div id="main">
       <div id="container">
         <div id="content" role="main">
-		
 			<header>
 				<img src='logo.png' alt='EPAM'>
 				<h1>HTML Elements</h1>
 				<hr>
 			</header>
-			
 			<nav>
-				<a href='#home'><b>Home</b></a>
+				<a href='#'><b>Home</b></a>
 				<a href='#headers'><b>Headers</b></a>
 				<a href='#text'><b>Text</b></a>
 				<a href='#list'><b>List</b></a>
 				<a href='#table'><b>Table</b></a>
 				<a href='#blockquotes'><b>Blockquotes</b></a>
 			</nav>
-			
-			<main id='main'>
+			<main>
 				<hr>
 				<p>	
 					Lorem ipsum dolor sit amet, <a href=''>test link</a> adipiscing elit. <b>This is strong.</b> Nullam dignissim convallis est. Quisque aliquam. 
@@ -43,22 +38,20 @@
 					quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <kbd>COPY</kbd> <i>filename.</i> <del>Dinner&#8217;s at 5:00.</del>
 					<ins>Let&#8217;s make that 7.</ins> This <del>text</del> has been struck.
 				</p>
-			
 			<section id='headers'>
 				<hr>
 				<p>	
 					Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2,
 					because we have to use only one h1 on the page, and it is commonly used inside header
 				</p>
-				
 				<h2>Header 2</h2>
 				<h3>Header 3</h3>
 				<h4>Header 4</h4>
 				<h5>Header 5</h5>
 				<h6>Header 6</h6>
 			</section>
+			<hr>
 			<section id='text'>
-				<hr>
 				<article>
 					<header>
 						<h2>Text formats</h2>
@@ -96,7 +89,6 @@ both           spaces and
 }
 					</code>
 				</pre>
-				
 			</section>
 			<div id='list'>
 				<section>
@@ -138,9 +130,8 @@ both           spaces and
 					<dt>JavaScript</dt>
 					<dd>JavaScript is the Programming Language for the Web</dd>
 				</dl>
-			
-				<label for='select'>Select option</label>
-				<select id='select'>
+				<label for='set'>Select option</label>
+				<select id='set'>
 					<option value='HTML'>HTML</option>
 					<option value='CSS'>CSS</option>
 					<option value='JS'>JS</option>
@@ -159,8 +150,8 @@ both           spaces and
 					</thead>
 					<tbody>
 						<tr>
-								<td>Lviv</td>
-								<td>HTML</td>						
+							<td>Lviv</td>
+							<td>HTML</td>						
 						</tr>
 						<tr>
 							<td>Vinnytsia</td>
@@ -180,6 +171,7 @@ both           spaces and
 						</tr>
 					</tbody>
 				</table>
+			</section>
 			<section id='blockquotes'>
 				<h2>Blockquotes</h2>
 				<p>
@@ -215,12 +207,10 @@ both           spaces and
 					<button type='submit'>Submit</button>
 				</fieldset>
 			</form>
-			</section>
 			<footer>&copy; Copyright Epam Systems</footer>
         </div>
       </div>
     </div>
   </div>
 </body>
-
 </html>
